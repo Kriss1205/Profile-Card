@@ -1,8 +1,4 @@
 import "../style/index.css";
-import TwitterIcon from "@mui/icons-material/Twitter";
-import GitHubIcon from "@mui/icons-material/GitHub";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import InstagramIcon from "@mui/icons-material/Instagram";
 
 /**
  *  EDIT ONLY INSIDE THIS RENDER FUNCTION
@@ -41,10 +37,10 @@ function render(variables = {}) {
           <h2>${variables.role}</h2>
           <h3>${variables.city}, ${variables.country}</h3>
           <ul class="position-right">
-            <li><a href="https://twitter.com/4geeksacademy"><TwitterIcon /></a></li>
-            <li><a href="https://github.com/4geeksacademy"><GitHubIcon /></a></li>
-            <li><a href="https://linkedin.com/4geeksacademy"><LinkedInIcon /></a></li>
-            <li><a href="https://instagram.com/4geeksacademy"><InstagramIcon /></a></li>
+            <li><a href=${variables.twitter}><i class="fab fa-twitter"></i></a></li>
+            <li><a href=${variables.github}><i class="fab fa-github"></i></a></li>
+            <li><a href=${variables.linkedin}><i class="fab fa-linkedin"></i></a></li>
+            <li><a href=${variables.instagram}><i class="fab fa-instagram"></i></a></li>
           </ul>
         </div>
     `;
