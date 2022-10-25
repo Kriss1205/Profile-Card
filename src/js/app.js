@@ -1,4 +1,8 @@
 import "../style/index.css";
+import TwitterIcon from "@mui/icons-material/Twitter";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import InstagramIcon from "@mui/icons-material/Instagram";
 
 /**
  *  EDIT ONLY INSIDE THIS RENDER FUNCTION
@@ -37,10 +41,10 @@ function render(variables = {}) {
           <h2>${variables.role}</h2>
           <h3>${variables.city}, ${variables.country}</h3>
           <ul class="position-right">
-            <li><a href="https://twitter.com/4geeksacademy"><i class="fab fa-twitter"></i></a></li>
-            <li><a href="https://github.com/4geeksacademy"><i class="fab fa-github"></i></a></li>
-            <li><a href="https://linkedin.com/4geeksacademy"><i class="fab fa-linkedin"></i></a></li>
-            <li><a href="https://instagram.com/4geeksacademy"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://twitter.com/4geeksacademy"><TwitterIcon /></a></li>
+            <li><a href="https://github.com/4geeksacademy"><GitHubIcon /></a></li>
+            <li><a href="https://linkedin.com/4geeksacademy"><LinkedInIcon /></a></li>
+            <li><a href="https://instagram.com/4geeksacademy"><InstagramIcon /></a></li>
           </ul>
         </div>
     `;
@@ -57,7 +61,8 @@ window.onload = function() {
     background:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/A_colored_version_of_the_Big_wave_from_100_views_of_the_Fuji%2C_2nd_volume.jpg/200px-A_colored_version_of_the_Big_wave_from_100_views_of_the_Fuji%2C_2nd_volume.jpg",
     // this is the url for the profile avatar
-    avatarURL: "https://randomuser.me/api/portraits/women/42.jpg",
+    avatarURL:
+      "https://i.pinimg.com/736x/d7/3b/c1/d73bc1381fb1380112a98266b6f2d27f.jpg",
     // social media bar position (left or right)
     socialMediaPosition: "position-left",
     // social media usernames
