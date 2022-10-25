@@ -31,6 +31,9 @@
   },
   "homepage": "https://github.com/4GeeksAcademy/vanillajs-hello#readme",
   "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@mui/material": "^5.10.10",
     "@popperjs/core": "^2.10.1",
     "bootstrap": "^5.1.1"
   },
