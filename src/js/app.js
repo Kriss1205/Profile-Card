@@ -34,8 +34,8 @@ function render(variables = {}) {
             ${cover}
           <img src="${variables.avatarURL}" class="photo" />
           <h1>${variables.name} ${variables.lastname}</h1>
-          <h2>Web Developer</h2>
-          <h3>Miami, USA</h3>
+          <h2>${variables.role}</h2>
+          <h3>${variables.city}, ${variables.country}</h3>
           <ul class="position-right">
             <li><a href="https://twitter.com/4geeksacademy"><i class="fab fa-twitter"></i></a></li>
             <li><a href="https://github.com/4geeksacademy"><i class="fab fa-github"></i></a></li>
@@ -60,15 +60,15 @@ window.onload = function() {
     // social media bar position (left or right)
     socialMediaPosition: "position-left",
     // social media usernames
-    twitter: null,
-    github: "alesanchezr",
-    linkedin: null,
-    instagram: null,
-    name: Name,
-    lastname: Lastname,
-    role: null,
-    country: null,
-    city: null
+    twitter: "Twitter",
+    github: "GitHub",
+    linkedin: "LinkedIn",
+    instagram: "Instagram",
+    name: "Name",
+    lastname: "Last Name",
+    role: "Role",
+    country: "Country",
+    city: "City"
   };
   render(window.variables); //render the card for the first time
 
